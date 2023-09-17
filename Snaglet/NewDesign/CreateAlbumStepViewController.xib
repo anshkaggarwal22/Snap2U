@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateNewAlbumViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Album" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vre-WO-7ZX">
+                    <rect key="frame" x="108" y="54" width="222" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQO-dE-8wK">
+                    <rect key="frame" x="128" y="182" width="158" height="25"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a smart album in Snap2U" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDF-ta-qCi">
+                    <rect key="frame" x="53" y="215" width="219" height="18"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to different groups of people" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VS0-jr-ev3">
+                    <rect key="frame" x="33" y="298" width="348" height="18"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(parents, in-laws, etc)." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSA-BU-4rd">
+                    <rect key="frame" x="33" y="320" width="348" height="18"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by tapping the + icon." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdL-rM-jvh">
+                    <rect key="frame" x="53" y="237" width="319" height="18"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialArrow-Step1" highlightedImage="TutorialArrow-Step1" translatesAutoresizingMaskIntoConstraints="NO" id="fQ7-le-QtM">
+                    <rect key="frame" x="50" y="108" width="64" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="HUA-6K-0CH"/>
+                        <constraint firstAttribute="width" constant="64" id="iC1-M8-NWw"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnL-MB-56E">
+                    <rect key="frame" x="30" y="30" width="64" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="43x-Ef-5P9"/>
+                        <constraint firstAttribute="width" constant="64" id="yyz-Wq-O5I"/>
+                    </constraints>
+                    <state key="normal" image="AddBox-PlusOnly">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="createAlbum:" destination="-1" eventType="touchUpInside" id="XYm-DI-WQ9"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use albums to send specific pictures" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1t-ut-tPV">
+                    <rect key="frame" x="33" y="275" width="348" height="18"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="4jR-Tb-CQx"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="E1t-ut-tPV" firstAttribute="trailing" secondItem="VS0-jr-ev3" secondAttribute="trailing" id="0uN-39-CT7"/>
+                <constraint firstItem="vre-WO-7ZX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="54" id="3ne-x3-sK6"/>
+                <constraint firstItem="NnL-MB-56E" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="5UH-Io-v7b"/>
+                <constraint firstItem="fQ7-le-QtM" firstAttribute="top" secondItem="NnL-MB-56E" secondAttribute="bottom" constant="14" id="7kh-MG-CN0"/>
+                <constraint firstItem="vre-WO-7ZX" firstAttribute="leading" secondItem="NnL-MB-56E" secondAttribute="trailing" constant="14" id="8ev-kU-MOa"/>
+                <constraint firstItem="E1t-ut-tPV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="33" id="8sd-GF-2Lf"/>
+                <constraint firstItem="fDF-ta-qCi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="53" id="Bzb-Om-uxl"/>
+                <constraint firstItem="fQ7-le-QtM" firstAttribute="top" secondItem="vre-WO-7ZX" secondAttribute="bottom" constant="33" id="E85-et-7VI"/>
+                <constraint firstItem="E1t-ut-tPV" firstAttribute="centerX" secondItem="EQO-dE-8wK" secondAttribute="centerX" id="Geb-9T-baw"/>
+                <constraint firstAttribute="trailing" secondItem="BdL-rM-jvh" secondAttribute="trailing" constant="42" id="I1v-E2-aoR"/>
+                <constraint firstItem="BdL-rM-jvh" firstAttribute="top" secondItem="fDF-ta-qCi" secondAttribute="bottom" constant="4" id="N5l-hK-kgI"/>
+                <constraint firstAttribute="trailing" secondItem="vre-WO-7ZX" secondAttribute="trailing" constant="84" id="PKc-SO-Kq5"/>
+                <constraint firstItem="BdL-rM-jvh" firstAttribute="leading" secondItem="fDF-ta-qCi" secondAttribute="leading" id="QpP-JV-ZKK"/>
+                <constraint firstItem="fQ7-le-QtM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="SyA-I9-B13"/>
+                <constraint firstItem="NnL-MB-56E" firstAttribute="leading" secondItem="4jR-Tb-CQx" secondAttribute="leading" constant="30" id="ToU-oT-2ps"/>
+                <constraint firstItem="EQO-dE-8wK" firstAttribute="leading" secondItem="fQ7-le-QtM" secondAttribute="trailing" constant="14" id="Xx4-DI-hiB"/>
+                <constraint firstItem="E1t-ut-tPV" firstAttribute="leading" secondItem="VS0-jr-ev3" secondAttribute="leading" id="b05-vH-1eu"/>
+                <constraint firstItem="E1t-ut-tPV" firstAttribute="top" secondItem="BdL-rM-jvh" secondAttribute="bottom" constant="20" id="czm-ab-Dfw"/>
+                <constraint firstItem="E1t-ut-tPV" firstAttribute="leading" secondItem="PSA-BU-4rd" secondAttribute="leading" id="dN9-Pf-kOZ"/>
+                <constraint firstItem="fDF-ta-qCi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="215" id="gvM-Zs-7st"/>
+                <constraint firstItem="fDF-ta-qCi" firstAttribute="top" secondItem="EQO-dE-8wK" secondAttribute="bottom" constant="8" symbolic="YES" id="i2I-IU-8DI"/>
+                <constraint firstItem="E1t-ut-tPV" firstAttribute="trailing" secondItem="PSA-BU-4rd" secondAttribute="trailing" id="lbm-PO-0f2"/>
+                <constraint firstItem="VS0-jr-ev3" firstAttribute="top" secondItem="E1t-ut-tPV" secondAttribute="bottom" constant="5" id="sAT-m1-uar"/>
+                <constraint firstItem="PSA-BU-4rd" firstAttribute="top" secondItem="VS0-jr-ev3" secondAttribute="bottom" constant="4" id="sB8-7k-qrR"/>
+                <constraint firstItem="PSA-BU-4rd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uxd-P2-vrL"/>
+            </constraints>
+            <point key="canvasLocation" x="141" y="79"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AddBox-PlusOnly" width="70" height="70"/>
+        <image name="TutorialArrow-Step1" width="64" height="95"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Snaglet {
+  umbrella header "Pods-Snaglet-umbrella.h"
+
+  export *
+  module * { export * }
+}
